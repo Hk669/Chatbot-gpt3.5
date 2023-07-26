@@ -2,6 +2,13 @@
 
 This is a simple chatbot built using Flask and the OpenAI GPT-3.5 turbo model. The chatbot allows users to interact with a language model powered by GPT-3.5 turbo and get responses based on their input.
 
+
+
+
+https://github.com/Hk669/Openai-Chatbot/assets/96101829/edbe003f-0f60-4209-b46d-d5c80d517859
+
+
+
 ## Prerequisites
 
 Before running the chatbot, make sure you have the following installed:
