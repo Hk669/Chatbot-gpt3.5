@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-display"></div>
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function appendMessage(message) {
+            const chatDisplay = document.getElementById("chat-display");
+            chatDisplay.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
+        }
+
+        function appendResponse(response) {
+            const chatDisplay = document.getElementById("chat-display");
+            chatDisplay.innerHTML += `<p><strong>Chatbot:</strong> ${response}</p>`;
+        }
+
+        function sendMessage() {
+            const userInput = document.getElementById("user-input");
+            const message = userInput.value.trim();
+            if (message !== "") {
+                appendMessage(message);
+                userInput.value = "";
+
+                fetch("/ask", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                    body: `user_input=${encodeURIComponent(message)}`,
+                })
+                .then((response) => response.json())
+                .then((data) => appendResponse(data.response));
+            }
+        }
+    </script>
+</body>
+</html>
