@@ -17,7 +17,7 @@ app = Flask(__name__)
 chat = ChatOpenAI(
     temperature = 0.7,
     openai_api_key = OPEN_AI_KEY,
-    openai_organization = 'org-CKPy6n4fS0ihzAAnvLHke5nG'
+    openai_organization = ORG_KEY
     )
 
 
