@@ -24,7 +24,7 @@ You also need to obtain an API key from OpenAI to access the GPT-3.5 turbo model
 1. Clone the repository to your local machine:
 
 ```shell
-git clone https://github.com/Hk669/Openai-Chatbot.git
+git clone https://github.com/Hk669/Chatbot-gpt3.5.git
 ```
 
 2. Run the Flask app:
