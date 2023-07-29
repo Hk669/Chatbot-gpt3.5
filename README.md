@@ -5,7 +5,9 @@ This is a simple chatbot built using Flask and the OpenAI GPT-3.5 turbo model. T
 
 
 
-https://github.com/Hk669/Openai-Chatbot/assets/96101829/edbe003f-0f60-4209-b46d-d5c80d517859
+https://github.com/Hk669/Chatbot-gpt3.5/assets/96101829/6212c32d-01d3-4ecf-b52f-20a6a7aa00c0
+
+
 
 
 
