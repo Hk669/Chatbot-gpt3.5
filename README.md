@@ -9,6 +9,9 @@ https://github.com/Hk669/Chatbot-gpt3.5/assets/96101829/6212c32d-01d3-4ecf-b52f-
 
 
 
+preview:
+![image](https://github.com/Hk669/Chatbot-gpt3.5/assets/96101829/8743726c-841f-467b-a29d-064911b9b4ca)
+
 
 
 ## Prerequisites
